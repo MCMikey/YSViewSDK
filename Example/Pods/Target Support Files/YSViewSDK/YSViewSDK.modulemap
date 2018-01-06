@@ -1,0 +1,6 @@
+framework module YSViewSDK {
+  umbrella header "YSViewSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
