@@ -1,5 +1,5 @@
 PODS:
-  - YSViewSDK (0.0.2)
+  - YSViewSDK (0.0.3)
 
 DEPENDENCIES:
   - YSViewSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YSViewSDK: ce72f737a02d78e09f595d03b89643ed871e597c
+  YSViewSDK: a22baada984a2c10d8625e4cdbae6fdd852e4706
 
 PODFILE CHECKSUM: 0b2250e876e5f8987913e87c4ec7e9e30f2d81e0
 
