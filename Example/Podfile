@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YSViewSDK_Example' do
+  pod 'YSViewSDK', :path => '../'
+
+  target 'YSViewSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
