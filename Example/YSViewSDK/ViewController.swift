@@ -22,9 +22,17 @@ class ViewController: UIViewController {
         tf.layer.borderWidth = 0.35
         tf.layer.cornerRadius = 5.0
         tf.layer.borderColor = UIColor.lightGray.cgColor
+        
         view.addSubview(tf)
         
-
+        let tv = YSTextView(frame: CGRect(x: 10, y: 90, width: 200, height: 40))
+        tv.backgroundColor = .red
+        tv.placeholder = "撒旦撒发大水发的是"
+        tv.showLimit = true
+        tv.maxLength = 10
+        //tv.ysDelegate = self
+        tv.ysDelegate = self
+        view.addSubview(tv)
     }
     
 
@@ -33,5 +41,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+extension ViewController: YSTextViewDelegate {
+    func textViewDidTextChange(textView: YSTextView, count: Int) {
+        print("textViewDidTextChange = \(count)")
+    }
+    
+//    func textViewDidReachMaxLength(textView: YSTextView) {
+//
+//        print("textViewDidReachMaxLength = \(textView.text.count)")
+//    }
+    
+    
 }
 

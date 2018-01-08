@@ -2,18 +2,28 @@
 //  YSTextField.swift
 //  YSTextField
 //
-//  Created by Fabricio Serralvo on 12/7/16.
-//  Copyright © 2016 Fabricio Serralvo. All rights reserved.
+//  Created by 605055291@qq.com on 01/06/2018.
+//  Copyright (c) 2018 605055291@qq.com. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
+// MARK: - YSTextFieldDelegate
+
+@objc public protocol YSTextFieldDelegate : NSObjectProtocol {
+    
+    @objc optional func textFieldDidReachMaxLength(textField: YSTextField)
+    
+    @objc optional func textFieldDidTextChange(textField: YSTextField, count: Int)
+}
+
+
 open class YSTextField: UITextField, UITextFieldDelegate {
 
     lazy internal var counterLabel: UILabel = UILabel()
     
-    weak var ysDelegate: YSTextFieldDelegate?
+    weak open var ysDelegate: YSTextFieldDelegate?
     
     // MARK: IBInspectable: Limits and behaviors
     
@@ -155,6 +165,11 @@ open class YSTextField: UITextField, UITextFieldDelegate {
         var size : CGSize = CGSize()
         
         if let currentFont = font {
+            /**
+             swift 3.0 :
+             size = (biggestText as NSString).size(attributes: [NSFontAttributeName: currentFont, NSParagraphStyleAttributeName: paragraph])
+             */
+            
             size = biggestText.size(withAttributes: [NSAttributedStringKey.font: currentFont, NSAttributedStringKey.paragraphStyle: paragraph])
         }
         
@@ -195,7 +210,11 @@ open class YSTextField: UITextField, UITextFieldDelegate {
     
     private func checkIfNeedsCallDidReachMaxLengthDelegate(count: Int) {
         if (count >= maxLength) {
-            ysDelegate?.didReachMaxLength(textField: self)
+            if let delegate = ysDelegate {
+                if delegate.responds(to: #selector(YSTextFieldDelegate.textFieldDidReachMaxLength(textField:))) {
+                    delegate.textFieldDidReachMaxLength!(textField: self)
+                }
+            }
         }
     }
 
@@ -262,19 +281,25 @@ open class YSTextField: UITextField, UITextFieldDelegate {
             shouldChange = charactersCount <= maxLength
         }
         
+        
+        
         updateCounterLabel(count: charactersCount)
         checkIfNeedsCallDidReachMaxLengthDelegate(count: charactersCount)
+        
+        if shouldChange {
+            if let delegate = ysDelegate {
+                if delegate.responds(to: #selector(YSTextFieldDelegate.textFieldDidTextChange(textField:count:))) {
+                    delegate.textFieldDidTextChange!(textField: self, count: charactersCount)
+                }
+            }
+        }
+        
         
         return shouldChange
     }
     
 }
 
-// MARK: - YSTextFieldDelegate
-
-protocol YSTextFieldDelegate : class {
-    func didReachMaxLength(textField: YSTextField)
-}
 
 // MARK: - Extensions
 

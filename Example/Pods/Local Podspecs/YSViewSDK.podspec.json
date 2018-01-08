@@ -1,6 +1,6 @@
 {
   "name": "YSViewSDK",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "summary": "A short description of YSViewSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MCMikey/YSViewSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MCMikey/YSViewSDK.git",
-    "tag": "0.0.4"
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "8.0"
