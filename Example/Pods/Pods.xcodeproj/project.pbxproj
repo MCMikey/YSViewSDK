@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1440894A9038E0AF0A7810408C93C9C4 /* YSViewSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1049593E10F49FF91823FF41A5A849 /* YSViewSDK-dummy.m */; };
+		27B02AE171CED066EAEE83BBA8E63978 /* YSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980E281E01EFA05DEB452B0D11EE956 /* YSButton.swift */; };
 		35414F5132348D5A1D9D917D85B6CDB1 /* Pods-YSViewSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D2DC7684CBC650566D79162852C16C /* Pods-YSViewSDK_Example-dummy.m */; };
-		3AA05A0CEBC1AEDF763794FCB258EF62 /* YSViewSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12528B846B9D5E4D9C08A08D06EE529E /* YSViewSDK-dummy.m */; };
-		3EF6EDB5B358C978EEE3EE30B50425AF /* YSViewSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B523D7FF34463508C7AB34711EA84CD /* YSViewSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B01B080CEDBFF31E006F892F1F7BFC3 /* YSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED2DF9D6B2ADB67D51E7C0AACAB09A4 /* YSTextField.swift */; };
+		3EF6EDB5B358C978EEE3EE30B50425AF /* YSViewSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6561FAFDA3187170A5B3C2D452EA3B62 /* YSViewSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C849274231665A102FBC28B64787F8 /* YSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCD615DA56D02E4205AF84F343C3FE /* YSTextView.swift */; };
 		996CE3AF4CF4C367E6F43854A899548E /* Pods-YSViewSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1207ACF4CD15F32299F47ACE9EE4A6BA /* Pods-YSViewSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B01B98FE18301621F3CC04F3DA39F704 /* Pods-YSViewSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7756BA5F2A17E105F4C9A7B4E625BA /* Pods-YSViewSDK_Tests-dummy.m */; };
-		B8C564F73C227C06A29666EA0E8944AC /* YSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113BD315E9429C88C6358F65C6E12FF /* YSTextView.swift */; };
 		B91D218115B5D5E7D782B461092E8B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BE0E1D9BBAB49AD794834A29570BCDB5 /* Pods-YSViewSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D94F8940FFCB616F20620ECD43F795 /* Pods-YSViewSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D046700B27D123D170B55A834DB90204 /* YSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E0C2DF08A00ABBF5E54AA27C24FF2 /* YSTextField.swift */; };
 		F1975342AA8091DAC72976E07AE91573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FD46834FC6996E556C57D3191F97345E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -36,31 +37,32 @@
 		0C7756BA5F2A17E105F4C9A7B4E625BA /* Pods-YSViewSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSViewSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		0FFB79088E3EBD2455F6A3C1B7CBF242 /* Pods-YSViewSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSViewSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1207ACF4CD15F32299F47ACE9EE4A6BA /* Pods-YSViewSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSViewSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		12528B846B9D5E4D9C08A08D06EE529E /* YSViewSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSViewSDK-dummy.m"; sourceTree = "<group>"; };
 		18E60EA8611F1CA50FBE9D4D727CD76F /* Pods-YSViewSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSViewSDK_Example.modulemap"; sourceTree = "<group>"; };
 		1943D8A2F8F6F37F29D6E7B11716D6C9 /* Pods-YSViewSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSViewSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		1980E281E01EFA05DEB452B0D11EE956 /* YSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSButton.swift; path = YSViewSDK/Classes/YSButton.swift; sourceTree = "<group>"; };
+		2839DE0E88C8BB34AEA0AA10A7838C19 /* YSViewSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YSViewSDK.modulemap; sourceTree = "<group>"; };
 		2AE9ACF61C6F4D28AAFB7B6B00F63C41 /* Pods-YSViewSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSViewSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3ED2DF9D6B2ADB67D51E7C0AACAB09A4 /* YSTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSTextField.swift; path = YSViewSDK/Classes/YSTextField.swift; sourceTree = "<group>"; };
+		3D8E0C2DF08A00ABBF5E54AA27C24FF2 /* YSTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSTextField.swift; path = YSViewSDK/Classes/YSTextField.swift; sourceTree = "<group>"; };
 		40717A6A337ADD03169EF3920E6A1493 /* Pods_YSViewSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSViewSDK_Tests.framework; path = "Pods-YSViewSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		410765AF0419A64698CECB6B721CA468 /* YSViewSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSViewSDK-prefix.pch"; sourceTree = "<group>"; };
 		444AC11CC31FA45B3417BDFA81808423 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B523D7FF34463508C7AB34711EA84CD /* YSViewSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSViewSDK-umbrella.h"; sourceTree = "<group>"; };
-		58A599CDBF2966AFE1BB0A609F682A1C /* YSViewSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YSViewSDK.modulemap; sourceTree = "<group>"; };
 		58BA31980A6BE74089972504FCFCE5FB /* Pods-YSViewSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSViewSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1049593E10F49FF91823FF41A5A849 /* YSViewSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSViewSDK-dummy.m"; sourceTree = "<group>"; };
 		5BE2EE1DCF0ACDC7291C6F75742D4B20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61CD7A6B08E390052941E5BFCF602418 /* YSViewSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSViewSDK.xcconfig; sourceTree = "<group>"; };
 		62D94F8940FFCB616F20620ECD43F795 /* Pods-YSViewSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSViewSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6561FAFDA3187170A5B3C2D452EA3B62 /* YSViewSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSViewSDK-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6844B890EA6BDFF2AAE820090F648FD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C76E385DE175672D123BC2A0CB934F /* Pods-YSViewSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSViewSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		76A8FE4FFD73C645B5F912FB37773710 /* YSViewSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSViewSDK-prefix.pch"; sourceTree = "<group>"; };
 		862BB6E6FA08F5B7BACC1EEB66E2FBCD /* Pods_YSViewSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSViewSDK_Example.framework; path = "Pods-YSViewSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE21E4D4DC22DE1E6B474B6AF5759D2 /* YSViewSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSViewSDK.xcconfig; sourceTree = "<group>"; };
 		8C203CF3B0CED1A8B90DA79A0C261011 /* Pods-YSViewSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSViewSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8291B9BB3D4454481DDEACD76A3383 /* Pods-YSViewSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSViewSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A171127DCE073A6B7ABF15A5D7D3E29E /* Pods-YSViewSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSViewSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9CCD615DA56D02E4205AF84F343C3FE /* YSTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSTextView.swift; path = YSViewSDK/Classes/YSTextView.swift; sourceTree = "<group>"; };
 		C4F6569546E360DEE2EAB9E41282CE55 /* Pods-YSViewSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSViewSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEB4EFE33C185866DFEE5B6D46895661 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7D2DC7684CBC650566D79162852C16C /* Pods-YSViewSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSViewSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		E113BD315E9429C88C6358F65C6E12FF /* YSTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSTextView.swift; path = YSViewSDK/Classes/YSTextView.swift; sourceTree = "<group>"; };
 		EE40C60335496EE01292013A614D2B74 /* Pods-YSViewSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSViewSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		F6EE02518CD65F5BA7C3E80EC7792834 /* YSViewSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSViewSDK.framework; path = YSViewSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8FD362F077694ADCE1F02B978436CE /* Pods-YSViewSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSViewSDK_Example-resources.sh"; sourceTree = "<group>"; };
@@ -94,36 +96,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36872724CD5066B184D2D4779C93250B /* YSViewSDK */ = {
-			isa = PBXGroup;
-			children = (
-				3ED2DF9D6B2ADB67D51E7C0AACAB09A4 /* YSTextField.swift */,
-				E113BD315E9429C88C6358F65C6E12FF /* YSTextView.swift */,
-				65B4D1B81C940C967F6B297DEBBA1E65 /* Support Files */,
-			);
-			name = YSViewSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		65B4D1B81C940C967F6B297DEBBA1E65 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CEB4EFE33C185866DFEE5B6D46895661 /* Info.plist */,
-				58A599CDBF2966AFE1BB0A609F682A1C /* YSViewSDK.modulemap */,
-				61CD7A6B08E390052941E5BFCF602418 /* YSViewSDK.xcconfig */,
-				12528B846B9D5E4D9C08A08D06EE529E /* YSViewSDK-dummy.m */,
-				410765AF0419A64698CECB6B721CA468 /* YSViewSDK-prefix.pch */,
-				4B523D7FF34463508C7AB34711EA84CD /* YSViewSDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YSViewSDK";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A1DE0FFA03C516161A61BFF5C66290EE /* Development Pods */,
+				A596D74217A8BE6CE2E9FF3437EC7A75 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8D8A22A305B68C8E20F516003EB61D01 /* Products */,
 				7FD9FE6AF190FBBEB7445BD634F8DF98 /* Targets Support Files */,
@@ -167,10 +144,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1DE0FFA03C516161A61BFF5C66290EE /* Development Pods */ = {
+		9D7BC3E67D3B36622865391D2C8E92CB /* YSViewSDK */ = {
 			isa = PBXGroup;
 			children = (
-				36872724CD5066B184D2D4779C93250B /* YSViewSDK */,
+				1980E281E01EFA05DEB452B0D11EE956 /* YSButton.swift */,
+				3D8E0C2DF08A00ABBF5E54AA27C24FF2 /* YSTextField.swift */,
+				B9CCD615DA56D02E4205AF84F343C3FE /* YSTextView.swift */,
+				E1C3684AB894D8894D8AC9FAE76D82CE /* Support Files */,
+			);
+			name = YSViewSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A596D74217A8BE6CE2E9FF3437EC7A75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BC3E67D3B36622865391D2C8E92CB /* YSViewSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -189,6 +178,20 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1C3684AB894D8894D8AC9FAE76D82CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6844B890EA6BDFF2AAE820090F648FD0 /* Info.plist */,
+				2839DE0E88C8BB34AEA0AA10A7838C19 /* YSViewSDK.modulemap */,
+				8AE21E4D4DC22DE1E6B474B6AF5759D2 /* YSViewSDK.xcconfig */,
+				5A1049593E10F49FF91823FF41A5A849 /* YSViewSDK-dummy.m */,
+				76A8FE4FFD73C645B5F912FB37773710 /* YSViewSDK-prefix.pch */,
+				6561FAFDA3187170A5B3C2D452EA3B62 /* YSViewSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YSViewSDK";
 			sourceTree = "<group>";
 		};
 		FF281456C255908F7C495DC3DCC3AE6A /* Pods-YSViewSDK_Example */ = {
@@ -260,7 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 091234D84FBCC10A2C717B237554834A /* Build configuration list for PBXNativeTarget "YSViewSDK" */;
 			buildPhases = (
-				9502A30176D79E7F8FC6039283CAA8AB /* Sources */,
+				1CAE4887D7A2A6A31D8C667225DA2FCA /* Sources */,
 				011B6FD6F21310811B9857113FDEB5B8 /* Frameworks */,
 				4F17B82405E0A03F3735E719E8729DFB /* Headers */,
 			);
@@ -320,6 +323,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1CAE4887D7A2A6A31D8C667225DA2FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B02AE171CED066EAEE83BBA8E63978 /* YSButton.swift in Sources */,
+				D046700B27D123D170B55A834DB90204 /* YSTextField.swift in Sources */,
+				67C849274231665A102FBC28B64787F8 /* YSTextView.swift in Sources */,
+				1440894A9038E0AF0A7810408C93C9C4 /* YSViewSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D89C170F611DAED0A428439EFC5E6A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,16 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01B98FE18301621F3CC04F3DA39F704 /* Pods-YSViewSDK_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9502A30176D79E7F8FC6039283CAA8AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B01B080CEDBFF31E006F892F1F7BFC3 /* YSTextField.swift in Sources */,
-				B8C564F73C227C06A29666EA0E8944AC /* YSTextView.swift in Sources */,
-				3AA05A0CEBC1AEDF763794FCB258EF62 /* YSViewSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +364,7 @@
 /* Begin XCBuildConfiguration section */
 		10A2B61892ACEF6BA946CFC6F92420D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61CD7A6B08E390052941E5BFCF602418 /* YSViewSDK.xcconfig */;
+			baseConfigurationReference = 8AE21E4D4DC22DE1E6B474B6AF5759D2 /* YSViewSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -486,7 +490,7 @@
 		};
 		510A8F0932001F0CBF67D6C69E78E535 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61CD7A6B08E390052941E5BFCF602418 /* YSViewSDK.xcconfig */;
+			baseConfigurationReference = 8AE21E4D4DC22DE1E6B474B6AF5759D2 /* YSViewSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -27,12 +27,23 @@ class ViewController: UIViewController {
         
         let tv = YSTextView(frame: CGRect(x: 10, y: 90, width: 200, height: 40))
         tv.backgroundColor = .red
-        tv.placeholder = "撒旦撒发大水发的是"
+        tv.placeholder = "撒旦撒发大水发发大水发发大水发发大水发发大水发的是"
         tv.showLimit = true
         tv.maxLength = 10
         //tv.ysDelegate = self
         tv.ysDelegate = self
         view.addSubview(tv)
+        
+        let btn = YSButton(frame: CGRect(x: 10, y: 150, width: 100, height: 40))
+        btn.backgroundColor = .lightGray
+        btn.setImage(UIImage(named:"i1"), for: .normal)
+        btn.imgSize = CGSize(width: 20, height: 30)
+        btn.setTitle("阿斯蒂芬大沙发斯芬", for: .normal)
+        btn.titleLabel?.font = UIFont.systemFont(ofSize: 10)
+        btn.layoutStyle = .LeftTitleRightImage
+        btn.titleLabel?.numberOfLines = 2
+        btn.titleLabel?.textAlignment = .center
+        view.addSubview(btn)
     }
     
 
