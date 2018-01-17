@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         tv.maxLength = 10
         //tv.ysDelegate = self
         tv.ysDelegate = self
+        
         view.addSubview(tv)
         
         let btn = YSButton(frame: CGRect(x: 10, y: 150, width: 100, height: 40))
@@ -44,6 +45,13 @@ class ViewController: UIViewController {
         btn.titleLabel?.numberOfLines = 2
         btn.titleLabel?.textAlignment = .center
         view.addSubview(btn)
+        
+        let imgView = UIImageView(frame: CGRect(x: 180, y: 150, width: 40, height: 40))
+        imgView.backgroundColor = .red
+        imgView.image = UIImage(named: "i1")
+        imgView.canClickBigImg()
+        view.addSubview(imgView)
+        
     }
     
 
