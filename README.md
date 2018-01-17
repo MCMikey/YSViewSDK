@@ -17,6 +17,7 @@ YSViewSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 source 'https://github.com/MCMikey/Boring.git'
+
 source 'https://github.com/CocoaPods/Specs.git'
 
 ```ruby
